@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Junaid Khan | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>  
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#" data-section="home">Home</a></li>
+      <li><a href="#" data-section="about">About</a></li>
+      <li><a href="#" data-section="projects">Projects</a></li>
+      <li><a href="#" data-section="resume">Resume</a></li>
+      <li><a href="#" data-section="contact me">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <header> 
+    <button id="theme-toggle" class="theme-toggle-btn">🌙</button>
+  </header>
+  
+
+  
+  <!-- Sections -->
+<section id="home" class="section visible">
+  <div class="intro">
+    <div class="text">
+      <!-- Static Text -->
+      <h1>Hi There <span class="wave">👋</span></h1> 
+      <h2 class="big-text">I am Junaid Khan</h2>
+
+      <!-- Typing Text Animation -->
+      <div class="typing-container">
+        <span class="typing-text"></span>
+      </div>
+    </div>
+    <div class="profile-img-container">
+      <img src="jk.jpg" alt="Junaid Khan" class="profile-img">
+    </div>
+  </div>
+</section>
+
+
+<section id="about" class="section hidden">
+    <h1>About Me</h1>
+    
+    <div class="about-container">
+      <!-- Text Content -->
+      <div class="about-text">
+        <p>I’m passionate about frontend development, with a knack for crafting sleek and interactive web experiences. With expertise in HTML, CSS, and JavaScript, I love experimenting with modern frameworks like React.js to bring ideas to life. Tools like VS Code are my trusted companions as I turn code into polished creations.</p>
+        <p>I am from the beautiful city of Udaipur, Rajasthan, known for its stunning lakes, palaces, and rich cultural heritage. This city’s unique artistic vibe inspire my creativity.</p>
+        <h3>Beyond coding, you’ll find me:</h3>
+        <ul>
+          <li>🏍️ Exploring the world on my bike</li>
+          <li>💪 Staying active with fitness routines</li>
+        </ul>
+        <p class="center-text"><i>Web development is my craft, but adventure fuels my creativity! 🚀</i></p>
+      </div>
+      
+      <!-- Icon Image -->
+      <div class="about-icon">
+        <img src="icon.png" alt="Developer Icon" class="developer-icon">
+      </div>
+    </div>
+
+    <!-- Professional Skillset -->
+    <div class="skillset">
+      <h2>Professional Skillset</h2>
+      <div class="skills-cards">
+        <div class="card">
+          <img src="html.png" alt="HTML Logo" class="skill-logo">
+          <p>HTML</p>
+        </div>
+        <div class="card">
+          <img src="css.png" alt="CSS Logo" class="skill-logo">
+          <p>CSS</p>
+        </div>
+        <div class="card">
+          <img src="js.png" alt="JS Logo" class="skill-logo">
+          <p>JavaScript</p>
+        </div>
+      </div>
+      <h2>TOOLS</h2>
+      <div class="skills-cards">
+        <div class="card">
+          <img src="vs.png" alt="VS Code Logo" class="skill-logo">
+          <p>VS Code</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+  <section id="projects" class="section hidden">
+    <h1>My Recent Work</h1>
+    <h2>Here are a few projects that I have been recently working on.</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h2>Project 1</h2>
+        <div class="card-buttons">
+          <a href="#" class="btn">GitHub</a>
+          <a href="#" class="btn">Demo</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h2>Project 2</h2>
+        <div class="card-buttons">
+          <a href="#" class="btn">GitHub</a>
+          <a href="#" class="btn">Demo</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h2>Project 3</h2>
+        <div class="card-buttons">
+          <a href="#" class="btn">GitHub</a>
+          <a href="#" class="btn">Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="section hidden">
+    <h1>My Resume</h1>
+    <div class="resume-preview">
+      <a href="resume.pdf" download>
+        <button class="btn">Download Resume</button>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact me" class="section hidden">
+    <h1>You can find me on</h1>
+    <div class="contact">
+      <a href="https://www.linkedin.com" class="btn" target="_blank">LinkedIn</a>
+      <a href="https://github.com" class="btn" target="_blank">GitHub</a>
+      <a href="mailto:your-email@example.com" class="btn">Email</a>
+    </div>
+  </section>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
